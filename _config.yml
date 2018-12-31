@@ -1,6 +1,6 @@
 # Site settings
-title: Unified Shared Services Management 
-description: Unified Shared Services Management (USSM) 
+title: Unified Shared Services Management
+description: Unified Shared Services Management (USSM)
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://www.ussm.gov/" # the base hostname & protocol for your site
 logo: /assets/img/logo-main.gif
@@ -83,18 +83,18 @@ footer:
         href: '/governance/'
       - text: 'Contact Us'
         href: '/ussm-contact/'
-        
-        
-        
+
+
+
   image: /assets/img/gsa-logo-dark.jpg
   contact:
     name: Unified Shared Services Management
-    phonenumber: 
+    phonenumber:
     email: ussmteam@gsa.gov
     twitter:
-    facebook: 
-    youtube: 
-    rss: 
+    facebook:
+    youtube:
+    rss:
   text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>.
  # Change to a tag line for your agency
 
