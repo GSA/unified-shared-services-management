@@ -48,6 +48,13 @@ defaults:
   scope:
     path: "" # an empty string here means all files in the project
   values:
+    layout:
+    - home
+    - page
+    - project-list
+    - project
+    - team-list
+    - team
 
 
 forms:
