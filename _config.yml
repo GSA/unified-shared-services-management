@@ -1,8 +1,8 @@
 # Site settings
 title: Unified Shared Services Management
 description: Unified Shared Services Management (USSM)
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://www.ussm.gov/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://www.ussm.gov" # the base hostname & protocol for your site
 logo: /assets/img/logo-main.gif
 feature_image: /assets/img/frontpageheader.png
 org_name: GSA
@@ -48,13 +48,7 @@ defaults:
   scope:
     path: "" # an empty string here means all files in the project
   values:
-    layout:
-      - home
-      - page
-      - "project-list"
-      - project
-      - "team-list"
-      - team
+
 
 forms:
 - type: newsletter
@@ -73,14 +67,16 @@ forms:
 footer:
   links:
       - text: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
-      - text: 'About USSM'
-        href: '/about/'
-      - text: 'Initiatives'
-        href: '/initiatives/'
-      - text: 'M3 Framework'
-        href: '/m3/'
       - text: 'Governance'
         href: '/governance/'
+      - text: 'FIBF'
+        href: '/fibf/'
+      - text: 'QSMO'
+        href: '/qsmo/'
+      - text: 'M3 Framework'
+        href: '/m3/'
+      - text: 'About USSM'
+        href: '/about/'
       - text: 'Contact Us'
         href: '/ussm-contact/'
 

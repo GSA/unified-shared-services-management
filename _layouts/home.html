@@ -5,8 +5,9 @@ layout: base
   <div class="hero-unit" style="background-image: url('{{ page.hero-image }}')">
     <div class="usa-grid">
       <div class="usa-width-whole hero-content">
-        <h1>{{ page.hero-text }}</h1>
-        <a class="usa-button" href="{{ page.hero-button-link | prepend: site.baseurl }}">{{ page.hero-button-text }}</a>
+        <h1>{{ page.hero-title }}</h1>
+        <p style="color:#ffffff;">{{ page.hero-text }}</p>
+        <a class="usa-button usa-button-secondary " href="{{ page.hero-button-link | prepend: site.baseurl }}">{{ page.hero-button-text }}</a>
       </div>
     </div>
   </div>
@@ -24,25 +25,40 @@ layout: base
   </div>
 </section>
 
-<section class="usa-section " style="background-color:#046b99;font-weight:bold;text-align:center; color:#ffffff;">
+
+
+
+
+<section class="usa-section " style="background-color:#046b99;">
 <div class="usa-grid usa-graphic_list-row">
-
-  <div class="usa-width-one-fourth" style="border:5px solid white;color:#ffffff;height:150px;padding:10px; ">
-   <p>Governance Model</p>
+  <div class="usa-width-one-fourth">
+    <div id="blue-border" >
+      <div id="blue-border-child">
+       <h4 style="color:#ffffff;">Governance Model</h4>
+      </div>
+     </div>
+   </div>
+   <div class="usa-width-one-fourth">
+     <div id="blue-border" >
+       <div id="blue-border-child">
+     <h4 style="color:#ffffff;">Federal Integrated Business Framework</p>
+   </div>
   </div>
-
-  <div class="usa-width-one-fourth" style="border:5px solid white;color:#ffffff;height:150px;padding:10px; ">
-   <p>Federal Integrated Business Framework</p>
+</div>
+  <div class="usa-width-one-fourth">
+    <div id="blue-border" >
+      <div id="blue-border-child">
+     <h4 style="color:#ffffff;">Quality Service Management Offices</p>
+   </div>
   </div>
-
-  <div class="usa-width-one-fourth" style="border:5px solid white;color:#ffffff;height:150px;padding:10px; ">
-   <p>Quality Service Management Offices</p>
+</div>
+  <div class="usa-width-one-fourth">
+    <div id="blue-border" >
+      <div id="blue-border-child">
+   <h4 style="color:#ffffff;">Modernization and Migration Management (M3) Framework</p>
+   </div>
   </div>
-
-  <div class="usa-width-one-fourth" style="border:5px solid white;color:#ffffff;height:150px;padding:10px; ">
-   <p>Modernization and Migration Management (M3) Framework</p>
-  </div>
-
+</div>
 </div>
 </section>
 
@@ -52,19 +68,22 @@ layout: base
 </section>
 
 <section class="usa-section usa-section-dark">
-    <div class="usa-grid">
-    <form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSA/subscribers/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZhCoiMxoWiSHeJTiR19j3v2+S7Z6oMVPNTy2Ytiv7ukUos3n+vi5J/Fc0MG7tmBSLdsHmRfj02xB0ztqUS0YWQ==" />
-    <input type="hidden" name="topic_id" id="topic_id" value="USGSA_512" />
-    <fieldset>
-    <legend>
-    C-Suite Quarterly Newsletter
-    </legend>
-    <div>
-    Sign up for C-Suite Quarterly, a quarterly update on management priorities, transformation success stories, and tools and information to help agencies improve performance.<BR><BR>
+  <div class="usa-grid">
+    <div class="usa-width-one-half">
+      <form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSA/subscribers/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZhCoiMxoWiSHeJTiR19j3v2+S7Z6oMVPNTy2Ytiv7ukUos3n+vi5J/Fc0MG7tmBSLdsHmRfj02xB0ztqUS0YWQ==" />
+      <input type="hidden" name="topic_id" id="topic_id" value="USGSA_512" />
+        <fieldset>
+          <legend>
+            C-Suite Quarterly Newsletter
+          </legend>
+        <div>
+          Sign up for C-Suite Quarterly, a quarterly update on management priorities, transformation success stories, and tools and information to help agencies improve performance.<BR><BR>
 
-    To sign up for updates or to access your subscriber preferences, please enter your contact information below.
+          To sign up for updates or to access your subscriber preferences, please enter your contact information below.
+        </div>
     </div>
-    <ol class='form'>
+  <div class="usa-width-one-half">
+    <ol style="padding-left:0px;" class='form'>
     <li class='email_fields' style='display: block'>
     <label for="email"><img class="required" src="https://public.govdelivery.com/static/required.gif" alt="Required" />Email Address</label>
     <input type="text" name="email" id="email" class="long" />
@@ -76,7 +95,8 @@ layout: base
     </div>
     </fieldset>
     </form>
-  </div>  
+    </div>
+  </div>
 </section>
 
 

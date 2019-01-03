@@ -5,15 +5,31 @@
   min-height: 25em;
   position: relative;
 }
+
+@media only screen and (max-width: 600px) {
+  .hero-unit {
+    min-height:40em;
+  }
+}
+
 .hero-content {
-  background-color: transparentize($text-color, .6);
-  bottom: 20px;
-  left: 50%;
-  margin-left: -30%;
   padding-top: 20px;
   position: absolute;
   text-align: center;
   width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+/*  OLD HERO class
+    background-color: transparentize($text-color, .6);
+    bottom: 20px;
+    left: 50%;
+    margin-left: -30%;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    width: 60%; */
 }
 .hero-content h1 {
   color: white;
