@@ -2,7 +2,7 @@
 layout: home
 body-class: home
 permalink: /
-hero-image: /assets/img/homepage-update-image.png
+hero-image: {{ site.url }}/assets/img/homepage-update-image.png
 hero-title: "Placeholder Title for Memo Announcement"
 hero-text: "This is placeholder text for a description of the Memo announcement. This is placeholder text for a description of the Memo announcement. This is placeholder text for a description of the Memo announcement. This is placeholder text for a description of the Memo announcement.This is placeholder text for a description of the Memo announcement."
 hero-button-text: Read the memo
