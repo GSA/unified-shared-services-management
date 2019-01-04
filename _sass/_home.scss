@@ -9,7 +9,7 @@
   line-height: 1.7;
 }
 
-#blue-border {
+.blue-border {
   border:3px solid white;
   position: relative;
   height: 170px;
@@ -18,12 +18,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #blue-border {
+  .blue-border {
     margin-bottom: 15px;
   }
 }
 
-#blue-border-child {
+.blue-border-child {
   display: inline-block;
   color:#ffffff;
   top: 50%;
@@ -34,7 +34,7 @@
 
 }
 
-#space-at-bottom {
+.space-at-bottom {
   margin-bottom: 10px;
 }
 
