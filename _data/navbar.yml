@@ -42,8 +42,8 @@ assigned:
         show_in_footer: false
     -
         text: 'QSMO'
-        href: pages/QSMO.md
-        permalink: /QSMO/
+        href: pages/qsmo.md
+        permalink: /qsmo/
         show_in_menu: true
         show_in_footer: false
     -

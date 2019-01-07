@@ -1,3 +1,5 @@
 ---
-layout: QSMO
+layout: qsmo
+title: QSMO
+permalink: /qsmo/
 ---
