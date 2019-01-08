@@ -1,7 +1,16 @@
 .border {
-  border-right: 3px solid black;
+  border-right: 2px solid black;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .border {
+      border-bottom: 2px solid black;
+      border-right: 0px;
+      
+  }
+}
+
 
 .border-last {
   text-align: center;
@@ -9,7 +18,7 @@
 
 .arrow {
   margin:0 auto;
-  margin-top: 13px;
+  margin-top: 41px;
   width: 30px;
   height: 30px;
   background-image: url("/assets/img/project-icons/arrow-down.png");
