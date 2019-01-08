@@ -1,8 +1,8 @@
 # Site settings
 title: Unified Shared Services Management
 description: Unified Shared Services Management (USSM)
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.ussm.gov" # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'https://www.ussm.gov' # the base hostname & protocol for your site
 logo: /assets/img/logo-main.gif
 feature_image: /assets/img/frontpageheader.png
 org_name: GSA
@@ -43,18 +43,6 @@ analytics:
     agency: GSA    # Change this to your agency
     subagency: USSM # Change this to your agency
 
-defaults:
- -
-  scope:
-    path: "" # an empty string here means all files in the project
-  values:
-    layout:
-    - home
-    - page
-    - project-list
-    - project
-    - team-list
-    - team
 
 
 forms:
