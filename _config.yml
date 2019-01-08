@@ -8,6 +8,33 @@ feature_image: /assets/img/frontpageheader.png
 org_name: GSA
 repo_name: federalist-modern-team-template
 
+colors:
+  background: '#555555'
+  link:
+    color: '#0071bc'
+    active: '#0071bc'
+    hover: '#205493'
+    visited: '#0071bc'
+  button:
+    background: '#0071bc'
+    hover: '#205493'
+    text: '#fff'
+  headers: '#205493'
+  text: '#212121'
+  reverse_text: '#ffffff'
+  projects:
+    accent: '#02bfe7'
+    card-heading: '#0071bc'
+  banner:
+    background: '#112e51'
+    text: '#fff'
+    button:
+      background: '#dce4ef'
+      text: '#112e51'
+  footer:
+    primary-background: '#f1f1f1'
+    secondary-background: '#d6d7d9'
+    text: '#212121'
 
 analytics:
   google:
@@ -21,7 +48,13 @@ defaults:
   scope:
     path: "" # an empty string here means all files in the project
   values:
-
+    layout:
+    - home
+    - page
+    - project-list
+    - project
+    - team-list
+    - team
 
 
 forms:
