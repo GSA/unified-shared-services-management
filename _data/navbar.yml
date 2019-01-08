@@ -7,7 +7,7 @@ assigned:
         show_in_footer: false
     -
         text: Initiatives
-        href: pages/projects.md
+        href: /pages/projects.md
         permalink: /initiatives/
         show_in_menu: false
         show_in_footer: false
@@ -36,31 +36,31 @@ assigned:
         show_in_footer: false
     -
         text: 'FIBF'
-        href: pages/team.md
+        href: /pages/team.md
         permalink: /fibf/
         show_in_menu: true
         show_in_footer: false
     -
         text: 'QSMO'
-        href: pages/qsmo.md
+        href: /pages/qsmo.md
         permalink: /qsmo/
         show_in_menu: true
         show_in_footer: false
     -
         text: 'M3 Framework'
-        href: pages/team.md
+        href: /pages/team.md
         permalink: /m3/
         show_in_menu: true
         show_in_footer: false
     -
         text: About USSM
-        href: pages/about.md
+        href: /pages/about.md
         permalink: /about/
         show_in_menu: true
         show_in_footer: false
     -
         text: 'Contact Us'
-        href: pages/ussm-contact.md
+        href: /pages/ussm-contact.md
         permalink: /ussm-contact/
         show_in_menu: false
         show_in_footer: false
