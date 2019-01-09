@@ -26,35 +26,44 @@ layout: base
 
 
 
-
+<script>
+  $(".blue-border").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
+</script>
 
 <section class="usa-section " style="background-color:#046b99;">
 <div class="usa-grid usa-graphic_list-row">
   <div class="usa-width-one-fourth">
     <div class="blue-border" >
       <div class="blue-border-child">
-       <h4 style="color:#ffffff;">Governance Model</h4>
+        <h4>Governance Model</h4>
+       <a href="/governance/"></a>
       </div>
      </div>
    </div>
    <div class="usa-width-one-fourth">
      <div class="blue-border" >
        <div class="blue-border-child">
-     <h4 style="color:#ffffff;">Federal Integrated Business Framework</p>
+     <h4>Federal Integrated Business Framework</h4>
+     <a href="/fibf/"></a>
    </div>
   </div>
 </div>
   <div class="usa-width-one-fourth">
     <div class="blue-border" >
       <div class="blue-border-child">
-     <h4 style="color:#ffffff;">Quality Service Management Offices</p>
+     <h4>Quality Service Management Offices</h4>
+     <a href="/qsmo/"></a>
    </div>
   </div>
 </div>
   <div class="usa-width-one-fourth">
     <div class="blue-border" >
       <div class="blue-border-child">
-   <h4 style="color:#ffffff;">Modernization and Migration Management (M3) Framework</p>
+   <h4>Modernization and Migration Management (M3) Framework</h4>
+   <a href="/m3/"></a>
    </div>
   </div>
 </div>
@@ -100,3 +109,10 @@ layout: base
 
 
 {% include contact.html %}
+
+<script>
+  $(".blue-border").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
+</script>

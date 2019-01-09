@@ -7,9 +7,23 @@
   .border {
       border-bottom: 2px solid black;
       border-right: 0px;
-      
+
   }
 }
+
+.border-left {
+  left: 2px solid black;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .border-left {
+      border-bottom: 2px solid black;
+      border-left: 0px;
+
+  }
+}
+
 
 
 .border-last {

@@ -16,6 +16,30 @@
   padding: 10px;
   maring:10px;
   text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.blue-border h4 {
+  color: white;
+}
+
+.blue-border a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.blue-border:hover {
+  background-color: white;
+}
+
+.blue-border:hover h4 {
+  color: #046b99;
+}
+
+.blue-border:hover a {
+  color: #046b99;
 }
 
 @media only screen and (max-width: 600px) {
