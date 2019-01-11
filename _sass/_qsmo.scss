@@ -5,26 +5,50 @@
 
 @media only screen and (max-width: 600px) {
   .border {
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid #112e51;
       border-right: 0px;
 
   }
 }
 
-.border-left {
-  left: 2px solid black;
+.border-left-white {
+  border-left: 1px solid #112e51;
   text-align: center;
+
 }
 
 @media only screen and (max-width: 600px) {
-  .border-left {
-      border-bottom: 2px solid black;
-      border-left: 0px;
+  .border-left-white {
+      border-left: none;
 
   }
 }
 
+.border-left-black {
+  border-left: 1px solid #112e51;
+  text-align: center;
+}
 
+@media only screen and (max-width: 600px) {
+  .border-left-black {
+      border-left: none;
+
+  }
+}
+
+.border-padding {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .border-padding {
+      margin-left: 0px;
+      border-bottom: 1px dotted black;
+      border-left: none;
+      padding-top:10px;
+
+  }
+}
 
 .border-last {
   text-align: center;
@@ -35,7 +59,7 @@
   margin-top: 41px;
   width: 30px;
   height: 30px;
-  background-image: url("../assets/img/project-icons/arrow-down.png");
+  background-image: url("https://www.usssm.gov/assets/img/project-icons/arrow-down.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
