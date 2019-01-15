@@ -42,6 +42,12 @@
   margin-left: 30px;
 }
 
+.border-padding p {
+  line-height: 1;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 @media only screen and (max-width: 600px) {
   .border-padding {
       margin-left: 0px;
@@ -105,4 +111,16 @@
 .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-size:50px;
+  color: white;
+  content: '\00AB'
+
 }
