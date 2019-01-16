@@ -53,7 +53,7 @@ assigned:
         show_in_menu: true
         show_in_footer: false
     -
-        text: About USSM
+        text: About OSSPI
         href: /pages/about.md
         permalink: /about/
         show_in_menu: true
