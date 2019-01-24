@@ -3,6 +3,7 @@
  *  Copyright: (c) 2014-15 David J. Bradshaw - dave@bradshaw.net
  *  License: MIT
  */
+ 
 
 (function(){
     'use strict';
@@ -24,7 +25,7 @@
                 width  : image.width  / image.naturalWidth,
                 height : image.height / image.naturalHeight
             };
-            
+
             var padding = {
                 width  : parseInt(window.getComputedStyle(image, null).getPropertyValue('padding-left'), 10),
                 height : parseInt(window.getComputedStyle(image, null).getPropertyValue('padding-top'), 10)
