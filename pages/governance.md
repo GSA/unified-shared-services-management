@@ -2,7 +2,7 @@
 layout: governance
 title: Governance Ecosystem
 permalink: /governance/
-image: ../assets/img/governance/governance-diagram-1.png
+image: /assets/img/governance/governance-diagram-1.png
 ---
 The governmentwide governance and operating model drives collaboration and change management with stakeholders across the federal government to identify solutions that deliver the best value to taxpayers and support efficient government.
 
